@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+	background-color: white;
+}
+button#titlebutton {
+	position: relative;
+	top: 5px;
+}
+#modaltext {
+	text-align: center;
+}
+div#main {
+	max-width: 768px;
+	margin: 0px auto;
+}
+div#middlebox {
+	max-width: 500px;
+	margin: 0px auto;
+}
+div[id$="section"] {
+	border-radius: 5px;
+	border: 1px solid #E1E1E1;
+}
+h1#Firstpagebutton {
+	text-align: center; 
+	top-margin: 10px; 
+	padding: 0px;
+}
+img#homeicon {
+	width: 35px;
+	height: 35px;
+	position: relative;
+	top: -8px;
+}
+img#beercharacter {
+	width: 50%;
+	position: relative;
+	top: 25px;
+	left: 170px;
+}
+img#slideimages {
+	width: 200px;
+	height: 200px;
+}
+
+p#quote {
+	font-size: 12px;
+	font-style: italic;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+
+div#webfoot {
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 5px;
+}
+th, td {
+	text-align: center;
+}
+
